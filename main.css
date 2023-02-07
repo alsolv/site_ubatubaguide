@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header,
+section h2{
+font-family: 'Lato', sans-serif;
+}
+body{
+    font-family: 'Source Serif Pro', serif;
+}
+
+header{
+    padding: 16px 0;
+    background: rgb(0, 162, 255);
+    color: aliceblue;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 24px;
+}
+header nav li a{
+    color:#fff;
+    text-decoration: none;
+}
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+.banner{
+    background-color: aqua;
+    height: 600px;
+    background-image:url(https://viagemeturismo.abril.com.br/wp-content/uploads/2022/12/GettyImages-180706945.jpg?quality=70&strip=info&w=1280&h=720&crop=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.banner h1{
+    color: azure;
+    font-size: 124px;
+    text-align: center;
+    padding: 150px;
+}
+
+
+.guide {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.guide article img {
+    width: 100%;
+    height: 50%;
+    
+}
+    
+    .guide article {
+        width: 30%; 
+}
+    
+    
+    section h2,
+    .guide article {
+        margin-bottom: 16px;
+        margin-top: 16px;
+}
+    
+    .guide article h3 {
+        margin-top: 8px;
+        margin-bottom: 8px;
+}
+    
+    .guide article a {
+        background-color: rgb(0, 162, 255);
+        color: aliceblue;
+        padding: 8px;
+        display: inline-block;
+        text-decoration:none;
+        font-weight: bold;
+        margin-top: 15px;
+        margin-bottom: 10px;
+}
+    .guide article a:hover {
+    background-color: rgb(3, 196, 255);
+}
+    
+    .guide article p,
+    .guide article a,
+    input, template{
+        font-family: Arial, Helvetica, sans-serif;
+    
+        
+}
+    
+    .guide article h3 {
+        font-size: 24px;
+}
+    section h2 {
+        font-size: 32px;
+}
+
+.social-links img{  
+    height: 34px;
+}
+
+.social-links li{
+    display: inline;
+    margin-right: 8px;
+}
+.social-links li a{
+    text-decoration: none;
+}
+
+#contact .container{
+    display: block;
+}
+
+.contact-methods{
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding:8px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+section h3{
+    margin-bottom: 16px;
+}
+
+form button{
+    background-color: rgb(0, 162, 255);
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    padding:10px;
+    font-size: 16px;
+    cursor: pointer;
+    }
+
+
+form button:hover{
+    background-color: rgb(3, 196, 255); ;
+}
+
+input:focus, textarea:focus{
+    outline-color:rgb(0, 162, 255); 
+}
+
+footer{
+    background-color: rgb(0, 162, 255);
+    color: #fff;
+    padding: 16px 0;
+    align-items: center;
+}
+
+#contact {
+    background-color: rgba(204, 204, 204, 0.158);
+    padding: 24px;
+}
